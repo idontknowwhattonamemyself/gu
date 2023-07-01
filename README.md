@@ -87,7 +87,7 @@ LuasMainSection:Toggle({
 	Name = "Toggle", 
 	Default = false, 
 	Callback = function(value)
-		print("Toggle Changed To "..value)
+		print("Toggle Changed To "..tostring(value))
 	end
 })
 LuasMainSection:Slider({
@@ -96,7 +96,7 @@ LuasMainSection:Slider({
 	Min = 0, 
 	Default = 50, 
 	Callback = function(value)
-		print("Slider Changed To "..value)
+		print("Slider Changed To "..tostring(value))
 	end
 })
 ```
